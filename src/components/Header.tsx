@@ -1,5 +1,11 @@
+import Theme from './Toggle/Theme';
+
 function Header() {
-	return <div>Delete This</div>;
+	return (
+		<div>
+			<Theme />
+		</div>
+	);
 }
 
 export default Header;
